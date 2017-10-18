@@ -7,6 +7,10 @@ I have realized that I lack the ability to apply some of the CS concepts that I 
 #### Sorting Algorithms
 - [x] Bubble Sort
 - [ ] Insertion Sort
+- [ ] Merge Sort
+- [ ] Quick Sort
+- [ ] Heap Sort
+- [ ] Counting Sort
 #### Searching Algorithms
 - [x] Linear Search
 - [ ] Binary Search
