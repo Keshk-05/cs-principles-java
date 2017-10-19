@@ -7,13 +7,24 @@ I have realized that I lack the ability to apply some of the CS concepts that I 
 #### Sorting Algorithms
 - [X] Bubble Sort
 - [ ] Insertion Sort
+- [ ] Selection Sort
 - [ ] Merge Sort
 - [ ] Quick Sort
+- [ ] In-Place Quick Sort
+- [ ] Bucket/Radix Sort
 - [ ] Heap Sort
 - [ ] Counting Sort
 #### Searching Algorithms
 - [X] Linear Search
 - [X] Binary Search
+- [ ] Breadth-First Iterative Search
+#### Others
+- [ ] Dijkstra’s Algorithm
+- [ ] Floyd-Warshall
+- [ ] Traveling Salesman
+- [ ] A*
+- [ ] Bloom Filter
+- [ ] K-Way Merge
 #### Data Structures
 - [ ] Linked Lists
 - [ ] Stacks
