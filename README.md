@@ -6,7 +6,7 @@ I have realized that I lack the ability to apply some of the CS concepts that I 
 ### Algorithms
 #### Sorting Algorithms
 - [X] Bubble Sort
-- [ ] Insertion Sort
+- [X] Insertion Sort
 - [ ] Selection Sort
 - [ ] Merge Sort
 - [ ] Quick Sort
