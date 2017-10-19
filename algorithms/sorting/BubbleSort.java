@@ -55,5 +55,7 @@ public class BubbleSort {
     for (int val : result) {
       System.out.print(val + " ");
     }
+
+    System.out.println("");
   }
 }
