@@ -27,9 +27,13 @@ I have realized that I lack the ability to apply some of the CS concepts that I 
 - [ ] K-Way Merge
 #### Data Structures
 - [ ] Linked Lists
-- [ ] Stacks
+- [ ] Stack
 - [ ] Queue
 - [ ] Hash Table
 - [ ] Map
+- [ ] Binary Search Tree
+- [ ] Circular Queue
+- [ ] Vector
+- [ ] Priority Queue
 ***
 List will continue to grow constantly
