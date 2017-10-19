@@ -25,7 +25,7 @@ I have realized that I lack the ability to apply some of the CS concepts that I 
 - [ ] A*
 - [ ] Bloom Filter
 - [ ] K-Way Merge
-#### Data Structures
+### Data Structures
 - [ ] Linked Lists
 - [ ] Stack
 - [ ] Queue
