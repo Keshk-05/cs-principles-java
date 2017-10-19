@@ -5,14 +5,20 @@ I have realized that I lack the ability to apply some of the CS concepts that I 
 ## Things to implement/practice...
 ### Algorithms
 #### Sorting Algorithms
-- [x] Bubble Sort
+- [X] Bubble Sort
 - [ ] Insertion Sort
 - [ ] Merge Sort
 - [ ] Quick Sort
 - [ ] Heap Sort
 - [ ] Counting Sort
 #### Searching Algorithms
-- [x] Linear Search
-- [ ] Binary Search
+- [X] Linear Search
+- [X] Binary Search
+#### Data Structures
+- [ ] Linked Lists
+- [ ] Stacks
+- [ ] Queue
+- [ ] Hash Table
+- [ ] Map
 ***
 List will continue to grow constantly
