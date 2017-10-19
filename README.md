@@ -35,5 +35,6 @@ I have realized that I lack the ability to apply some of the CS concepts that I 
 - [ ] Circular Queue
 - [ ] Vector
 - [ ] Priority Queue
+- [ ] Generics
 ***
 List will continue to grow constantly
