@@ -27,7 +27,7 @@ I have realized that I lack the ability to apply some of the CS concepts that I 
 - [ ] K-Way Merge
 ### Data Structures
 - [ ] Linked Lists
-- [ ] Stack
+- [X] Stack
 - [ ] Queue
 - [ ] Hash Table
 - [ ] Map
