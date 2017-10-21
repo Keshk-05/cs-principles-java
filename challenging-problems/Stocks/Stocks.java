@@ -42,7 +42,7 @@ public class Stocks {
   }
 
   public static void main(String[] args) {
-    int[] test = {50, 10, 30, 40 , 90, 100};
+    int[] test = {0, 1, 3, 4, 9, 1};
     System.out.println(get_max_profit(test));
   }
 }
