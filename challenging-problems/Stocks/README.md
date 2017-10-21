@@ -21,6 +21,6 @@ getMaxProfit(stockPricesYesterday);
 No "shorting"—you must buy before you sell. You may not buy and sell in the same time step (at least 1 minute must pass).
 
 ### My Solution
-Time taken for solution: `60 mins`
-My solution has a `0(n)` and I think that storage management could be improved.
+- Time taken for solution: `60 mins`
+- My solution has a `0(n)` and I think that storage management could be improved.
 
