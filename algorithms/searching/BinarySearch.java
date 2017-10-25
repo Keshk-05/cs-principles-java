@@ -2,7 +2,7 @@ public class BinarySearch {
 
   // A binary search algorithm that takes in an int (number looking for) and
   // an int array (array where looking) and returns the index where number found
-  // or returns -1 ASSUMES INPUT ARRAY IS IN ORDER
+  // or returns -1 ASSUMES INPUT ARRAY IS IN ORDER FROM LOWEST TO HIGHEST
   
   public static int search(int num, int[] nums) {
     int startIndex = 0;
