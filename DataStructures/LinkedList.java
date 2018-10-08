@@ -1,27 +1,56 @@
 package DataStructures;
 
-public class LinkedList<T> {
-  private Node<T> listItem = new Node<T>();
+public class LinkedList {
   private Node head;
-  private Node tail;
 
-  LinkedList() {
-    this.listItem.data = null;
-    this.listItem.next = null;
+  public LinkedList() {
+    this.listItem.value = null;
+    this.listItem.key = null;
+    this.head = null;
   }
 
-  LinkedList (T data) {
-    this.listItem.data = data;
-    this.listItem.next = null;
+  public LinkedList (Node n) {
+    this.head = n;
   }
 
-  // Adds item to the end of the linked list
-  public void addNode() {
+  public boolean find(Node n) {
+    Node curNode = this.head;
+    boolean present = false;
 
+    while (curNode != null) {
+      if (curNode.getKey() == n.getKey())
+        present = true;
+      curNode = curNode.getNext();
+    }
+
+    return present;
   }
-}
 
-class Node<T> {
-  protected T data;
-  protected Node next;
+  public boolean add(Node n) {
+    if (this.head == null)
+      this.head = n;
+    else {
+      Node curNode = this.head;
+
+      while (curNode.getNext() != null) {
+        if (curNode.getKey() == n.getKey())
+          return false;
+        curNode = curNode.getNext();
+      }
+      curNode.setNext(n);
+      return true;
+    }
+  }
+
+  public void print() {
+    Node curNode = this.head;
+
+    while (curNode != null) {
+      System.out.println("==");
+      System.out.println("Value: " + curNode.getValue());
+      System.out.println("Key: " + curNode.getKey());
+      System.out.println("==");
+      curNode = curNode.getNext();
+    }
+  }
 }
