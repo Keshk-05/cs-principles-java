@@ -1,6 +1,9 @@
 # Data Structures
 Below is the documentation and the assumtions that have been made for the data structures included this directory.
 
+## Linked List (Singly Linked)
+Implements a singly linked list.
+
 ## Min Heap
 Uses an array to build a heap.
 
@@ -14,7 +17,10 @@ Uses an array to build a heap.
 **Assumes that the value `0` will not be inserted** by the user. This assumsion is powering the `insert()`. Every heap is initialized to `0` when it begins and `insert()` uses this to check for the next empty node and also to dynamically increases the size of the tree whenever needed.
 
 ## Node
-## Class Variables and Member Functions
+
+Defined for linked list.
+
+### Class Variables and Member Functions
 ```
 Node {
   String value;
