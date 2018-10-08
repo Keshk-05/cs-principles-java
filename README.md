@@ -26,16 +26,18 @@ I have realized that I lack the ability to apply some of the CS concepts that I 
 - [ ] Bloom Filter
 - [ ] K-Way Merge
 ### Data Structures
-- [ ] Linked Lists
+- [X] Simple Node
+- [X] Linked Lists
 - [X] Stack
 - [ ] Queue
 - [ ] Hash Table
 - [ ] Map
 - [ ] Binary Search Tree
+- [ ] Heap
+- [ ] Trie
 - [ ] Circular Queue
 - [ ] Vector
 - [ ] Priority Queue
-- [X] Generics (distributed through out other data structures)
 - [ ] Circular Buffer
 ***
 List will continue to grow constantly
