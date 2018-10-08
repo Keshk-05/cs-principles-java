@@ -4,8 +4,6 @@ public class LinkedList {
   private Node head;
 
   public LinkedList() {
-    this.listItem.value = null;
-    this.listItem.key = null;
     this.head = null;
   }
 
@@ -38,8 +36,8 @@ public class LinkedList {
         curNode = curNode.getNext();
       }
       curNode.setNext(n);
-      return true;
     }
+    return true;
   }
 
   public void print() {
