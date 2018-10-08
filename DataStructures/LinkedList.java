@@ -40,12 +40,34 @@ public class LinkedList {
     return true;
   }
 
+  public boolean remove(Node n) {
+    if (this.head != null) {
+      Node currNode = this.head;
+
+      if (currNode.getKey() == n.getKey()) {
+        this.head = currNode.getNext();
+        return true;
+      }
+
+      while (currNode.getNext() != null) {
+        if (currNode.getNext().getKey() == n.getKey()) {
+          currNode.setNext(currNode.getNext().getNext());
+          return true;
+        }
+        currNode = currNode.getNext();
+      }
+    }
+
+    return false;
+  }
+
   public void print() {
     Node curNode = this.head;
 
     while (curNode != null) {
       System.out.println("==");
-      System.out.println("Value: " + curNode.getValue());
+      System.out.print("Value: " + curNode.getValue());
+      System.out.print("|");
       System.out.println("Key: " + curNode.getKey());
       System.out.println("==");
       curNode = curNode.getNext();
