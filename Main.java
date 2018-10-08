@@ -37,5 +37,36 @@ public class Main {
 
     l.print();
     /** **/
+
+    /** Stack Data Structure **/
+    Stack k = new Stack(10);
+    for (int i = 0; i < 15; i++) 
+      k.push(i);
+    
+    for (int i = 0; i < 15; i++)
+      System.out.print(k.pop() + " ");
+    
+    System.out.print("\n");
+    /** **/
+
+    /** Queue Data Structure **/
+    Queue q = new Queue(5);
+    for (int i = 0; i < 5; i++)
+      q.insert(i);
+    
+    System.out.print("Queue containes: ");
+    for (int i = 0; i < 5; i++)
+      System.out.print(q.remove() + " ");
+    System.out.print("\n");
+    /** **/
+
+    /** Min Heap Data Struture **/
+    // MinHeap heap = new MinHeap(10);
+    // heap.insert(10);
+    // heap.insert(5);
+    // heap.insert(9);
+    // heap.insert(1);
+    // heap.print();
+    /** **/
   }
 }
