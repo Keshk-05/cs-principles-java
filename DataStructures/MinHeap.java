@@ -2,17 +2,19 @@
  * A min heap data structure
  * that holds integers
  */
+package DataStructures;
+
 public class MinHeap {
   private int heap[];
 
-  MinHeap() { // Default constructor
+  public MinHeap() { // Default constructor
     /**
     * Default heap can hold 50 elements
     */
     heap = new int[50];
   }
 
-  MinHeap(int size) { // Takes in size and deines a heap that can hold that many elements
+  public MinHeap(int size) { // Takes in size and deines a heap that can hold that many elements
     heap = new int[size];
   }
 
@@ -55,7 +57,7 @@ public class MinHeap {
 
   public void heapify() {
     int i = 0;
-    // int index = 0;
+    int index = 0;
     while (i < this.heap.length - 1 && this.heap[i] != 0) {
       // index = i; // Get the very last FILLED index of the array
       i++;

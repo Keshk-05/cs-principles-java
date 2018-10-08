@@ -1,10 +1,12 @@
+package DataStructures;
+
 public class LinkedList<T> {
-  private Node<T> listItem = new Node<T>;
+  private Node<T> listItem = new Node<T>();
   private Node head;
   private Node tail;
 
   LinkedList() {
-    this.listItem.data = 0;
+    this.listItem.data = null;
     this.listItem.next = null;
   }
 
@@ -17,10 +19,6 @@ public class LinkedList<T> {
   public void addNode() {
 
   }
-
-
-
-
 }
 
 class Node<T> {

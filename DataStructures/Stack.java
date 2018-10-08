@@ -1,3 +1,5 @@
+package DataStructures;
+
 public class Stack {
 
   private int currentIndex = 0;

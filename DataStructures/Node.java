@@ -1,19 +1,16 @@
-/**
- * @author Ata Gowani
- * @see README.md
- * A simple class definition of a Node.
- */
+package DataStructures;
 
 public class Node {
   private String value;
   private int key;
 
-  Node() { // Default Consutructor
-    this.key = null;
+  // Default Consutructor
+  public Node() {
+    this.key = 0;
     this.value = null;
   }
 
-  Node(String v, int k) {
+  public Node(String v, int k) {
     this.key = k;
     this.value = v;
   }
