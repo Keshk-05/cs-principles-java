@@ -4,7 +4,7 @@ Below is the documentation and the assumtions that have been made for the data s
 ## Linked List (Singly Linked)
 Implements a singly linked list.
 
-## Min Heap
+## Heap (Min Heap)
 Uses an array to build a heap.
 
 `2i + 1` = left child
