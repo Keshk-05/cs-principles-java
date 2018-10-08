@@ -16,10 +16,13 @@ public class Stack {
 
   public void push(int num) {
     if (this.currentIndex >= this.array.length) {
-      System.out.println("Umm..the array is full :/");
-    } else {
-      this.array[this.currentIndex++] =  num;
+      int[] newArray = new int[this.array.length * 2];
+      for (int i = 0; i < this.array.length; i++)
+        newArray[i] = this.array[i];
+      this.array = newArray;
     }
+
+    this.array[this.currentIndex++] =  num;
   }
 
   public int pop() {
