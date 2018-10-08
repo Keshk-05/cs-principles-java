@@ -29,7 +29,7 @@ I have realized that I lack the ability to apply some of the CS concepts that I 
 - [X] Simple Node
 - [X] Linked Lists
 - [X] Stack
-- [ ] Queue
+- [X] Queue
 - [ ] Hash Table
 - [ ] Map
 - [ ] Binary Search Tree
