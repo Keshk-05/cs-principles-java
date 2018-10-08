@@ -27,6 +27,14 @@ public class Main {
       }
     }
 
+    for (int i = 0; i < 3; i++) {
+      String s = "Item " + i;
+      Node a =  new Node(s, i);
+      if (l.remove(a)) {
+        System.out.println("Node with key " + a.getKey() + " deleted successfully!");
+      }
+    }
+
     l.print();
     /** **/
   }
