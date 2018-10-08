@@ -1,2 +1,5 @@
 *.class
 Tests.java
+
+# Ignore VS Code Workspace Configurations
+.vscode
