@@ -18,6 +18,7 @@ I have realized that I lack the ability to apply some of the CS concepts that I 
 - [X] Linear Search
 - [X] Binary Search
 - [ ] Breadth-First Iterative Search
+- [X] Depth-First Search - Preorder (Recursive)
 #### Others
 - [ ] Dijkstra’s Algorithm
 - [ ] Floyd-Warshall
