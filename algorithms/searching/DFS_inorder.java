@@ -1,5 +1,5 @@
-public class DFS_preorder {
-  public static void main(String[] args) {
+public class DFS_inorder {
+  public static void main (String[] args) {
     Node binaryTree = new Node(50);
     Node curr = binaryTree;
 
@@ -18,31 +18,30 @@ public class DFS_preorder {
 
     curr.right = new Node(60);
 
-    preorder(binaryTree);
+    inorder(binaryTree);
   }
 
-  public static void preorder(Node root) {
-    if (root.left == null && root.right == null) {
-      System.out.println(root.val);
+  public static void inorder(Node head) {
+    if (head.left == null && head.right == null) {
+      System.out.println(head.val);
       return;
     }
-
-    System.out.println(root.val);
-    if (root.left != null) preorder(root.left);
-    if (root.right != null) preorder(root.right);
+    if (head.left != null) inorder(head.left);
+    System.out.println(head.val);
+    if (head.right != null) inorder(head.right);
   }
 }
 
 class Node {
   int val;
-  Node left = null;
   Node right = null;
+  Node left = null;
 
   Node() {
     this(0);
   }
 
   Node(int x) {
-    val = x;
+    this.val = x;
   }
 }
