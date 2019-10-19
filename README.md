@@ -7,7 +7,7 @@ I have realized that I lack the ability to apply some of the CS concepts that I 
 #### Sorting Algorithms
 - [X] Bubble Sort
 - [X] Insertion Sort
-- [ ] Selection Sort
+- [X] Selection Sort
 - [ ] Merge Sort
 - [ ] Quick Sort
 - [ ] In-Place Quick Sort
@@ -20,7 +20,7 @@ I have realized that I lack the ability to apply some of the CS concepts that I 
 - [ ] Breadth-First Iterative Search
 - [X] Depth-First Search - Preorder (Recursive)
 - [X] Depth-First Search - Inorder (Recursive)
-- [ ] Depth-First Search - Postorder (Recursive)
+- [X] Depth-First Search - Postorder (Recursive)
 #### Others
 - [ ] Dijkstra’s Algorithm
 - [ ] Floyd-Warshall
